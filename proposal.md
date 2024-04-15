@@ -1,5 +1,5 @@
-# Title
-Flower Image 
+# Flower Generated Image
+
 ## Repository
 <Link to your project's public GitHub respository>
 
