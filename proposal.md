@@ -6,6 +6,8 @@ https://github.com/DaisyDavila/Final-Project.git
 
 
 ## Description
+I want to be able to create/generate an image that will display a recongnizable flower of some sort. 
+Whether it be from manually drawing it or letting the program generate the image by it's self.
 1-2 sentence description of what it will do and how it relevant to media and digital arts.
 
 ## Features
