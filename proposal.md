@@ -12,9 +12,9 @@ Whether it be from manually drawing it or letting the program generate the image
 
 ## Features
 - Feature 1
-	- Short explaination of how it will be executed.
+	- I want it to feature an array of rgb colors, preferabley with some shades of pink added somewhere throughout the 	  piece. Think of a hello kitty kind of inspired 
 - Feature 2
-	- Short explaination of how it will be executed.
+	- Short explaination of how it will be execute
 - Feature N 
 	- Short explaination of how it will be executed.
 
@@ -25,7 +25,7 @@ Whether it be from manually drawing it or letting the program generate the image
 
 ## Outcomes
 Ideal Outcome:
-- Briefly describe what is the ideal outcome?
+- I want there to be a flower set to the side, with some other 
 
 Minimal Viable Outcome:
 - Briefly describe the bare essential for a good working outcome?
