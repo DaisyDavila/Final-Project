@@ -1,5 +1,5 @@
-# PROJECT TITLE
-Flower Generated Image
+# Flower Generated Image
+
 
 ## Demo
 Demo Video: <URL>
