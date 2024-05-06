@@ -27,7 +27,6 @@ def click(x, y):
     fill_turtle.pendown()
     fill_turtle.dot(30, (255/255, 234/255, 13/255))  # Yellow Bud color
 
-
 def main():
     # Set up the turtle
     screen = turtle.Screen()
@@ -95,6 +94,18 @@ def main():
     fill_turtle.hideturtle()
     fill_turtle.speed(0)
     fill_turtle.penup()
+
+    # Write "Complete the flower!" text
+    text_turtle = turtle.Turtle()
+    text_turtle.hideturtle()
+    text_turtle.color((255/255, 105/255, 180/255))
+    text_turtle.penup()
+    text_turtle.goto(0, 250)
+    text_turtle.write("Complete the flower!", align="center", font=("Arial", 24, "normal"))
+
+    # Write "Add a bud to the center of the Daisy!" text
+    text_turtle.goto(0, 220)
+    text_turtle.write("Add a bud to the center of the Daisy!", align="center", font=("Arial", 12, "normal"))
 
     # Bind click event to add the yellow bud
     screen.onclick(click)
