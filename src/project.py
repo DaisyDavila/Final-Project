@@ -1,5 +1,8 @@
 import turtle
 
+# Global variable to count clicks
+click_count = 0
+
 def draw_petal(t, radius, angle):
     """Draw a single petal."""
     t.begin_fill()
@@ -22,10 +25,21 @@ def draw_stem(t, length):
 
 def click(x, y):
     """Turtle for clicking"""
-    fill_turtle.penup()
-    fill_turtle.goto(x, y)
-    fill_turtle.pendown()
-    fill_turtle.dot(30, (255/255, 234/255, 13/255))  # Yellow Bud color
+    global click_count
+    if click_count < 3:
+        fill_turtle.penup()
+        fill_turtle.goto(x, y)
+        fill_turtle.pendown()
+        fill_turtle.dot(30, (255/255, 234/255, 13/255))  # Yellow Bud color
+        click_count += 1
+    else:
+        # Create a turtle to display the message
+        message_turtle = turtle.Turtle()
+        message_turtle.hideturtle()
+        message_turtle.color((255/255, 105/255, 180/255))  # Pink font color
+        message_turtle.penup()
+        message_turtle.goto(0, -200)  
+        message_turtle.write("You've reached the maximum limit of clicks!", align="center", font=("Arial", 14, "normal"))
 
 def main():
     # Set up the turtle
@@ -37,7 +51,7 @@ def main():
     petal_turtle_center.color("white")  # White Daisy Petals
     petal_turtle_center.speed(0)  # Setting the speed to the fastest to be able to see the flower faster
     petal_turtle_center.begin_fill()  # Begin filling petals
-    draw_flower(petal_turtle_center, petals=11, radius=100, angle=36)  # Draw the centerflower
+    draw_flower(petal_turtle_center, petals=11, radius=100, angle=36)  # Draw the center flower
     petal_turtle_center.end_fill()  # End filling petals
 
     # Draw the flower on the left
