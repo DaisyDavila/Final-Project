@@ -15,7 +15,7 @@ Whether it be from manually drawing it or letting the program generate the image
 	- I want it to feature an array of rgb colors, preferabley with some shades of pink added somewhere throughout the 	  piece. A kind of Hello Kitty inspired color palette. 
 - Feature 2
 	- For the flower itself, I want itnto have at least five petals. The flower's position will either be close up on 	  the right side of the screen or in the center.  
-- Feature N 
+- Feature 3 
 	- I want to add some text in the top center or top left of the image/screen, that either says my name "daisy" or 	 some other quote of some kind
 
 ## Challenges
